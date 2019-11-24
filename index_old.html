@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>    
+    <meta name="viewport" content="width=device-width, initial-scale=1; charset=utf-8">
+    <style type="text/css">
+      *{
+      	margin: 0;
+        padding: 0;
+      }
+      .imgtopo{
+      	width: 50%;
+        height: auto;
+      }
+      .imgprinc{
+      	width: 100%;
+        height: auto;
+      }
+      .imgsecun{
+      	width: 100%;
+        height: auto;
+        float: left;
+      }
+      .rodape{
+      	background-color: #b3b3b3;
+        float: left;
+        width: 100%;
+        padding-top: 15px;        
+        font-family: 'Verdana';
+        font-size: 12px;
+        text-align:center;
+        color: #550000ff;
+      }
+      .banner{
+      height: 0;
+      }
+      .menu {
+      	width: 100%;
+        height: 50px;
+        background-color: 550000ff;
+        font-family: 'Arial';
+        font-size: 30px;
+      }
+      .menu ul {
+      	list-style: none;
+        position: relative;
+      }
+      .menu ul li {
+      	width: 220px;
+        float: left;
+      }
+      .menu a {
+      	padding: 15px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        background-color: #550000ff; /* MUDAR A COR */
+        color: #b3b3b3ff;
+      }
+      .menu ul ul {
+      	position: absolute;
+        visibility: hidden;
+      }
+      .menu ul li:hover ul {
+      	visibility: visible;
+      }
+      .menu a:hover {								/* Altera a cor do item ao passar o mouse */
+      	background-color: #b3b3b3ff;
+        color: #550000ff; /* Altera a cor do texto ao passar o mouse */
+      }
+      .menu ul ul li {							/* Coloca um intem abaixo do outro e cria uma borda de cor clara */
+      	float: none;
+        border-bottom: solid 1px #ccc;
+      }
+      .menu ul ul li a {
+      	background-color: #550000ff;
+      }
+      label[for="bt_menu"]{
+      	padding: 5px;
+        background-color: #550000ff;
+        color: #b3b3b3ff;
+        font-family: "Arial";
+        text-align: center;
+        font-size: 30px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+      }
+      #bt_menu {
+      	display: none;
+      }
+      label[for="bt_menu"]{
+      	display: none;
+      }
+      
+      @media(max-width: 1100px){
+        label[for="bt_menu"]{
+      	display: block;
+      	}
+        
+        #bt_menu:checked ~ .menu{
+        	margin-left: 0;
+        }
+        
+        .menu{
+        	margin-top: 5px;
+          margin-left: -100%;
+          transition: all .4s;
+        }
+        .menu ul li {
+        	width: 100%;
+          float: none;
+        }
+        .menu ul ul {
+        	position: static;
+          overflow: hidden;
+          max-height: 0;
+          transition: all .4s;
+        }
+        .menu ul li:hover ul {
+        	height: auto;
+          max-height: 200px; /* esta altura depende da quantidade de itens do menu */
+        }
+      }
+    </style>
+    <title>Johnny Custom Garage</title>
+    <link rel="shortcut icon" href=".\img/logo_favicon.png" type="image/x-png"/>
+  </head>
+  <body style="background-color: #550000ff;">
+    <div style="text-align: center;">
+      <header><img class="imgtopo" src=".\img/johnny_topo.png">
+      </header>
+    </div>
+    <div>
+      <input type="checkbox" id="bt_menu">
+    	<label for="bt_menu">&#9776;</label>
+      <nav class="menu">
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Serviços</a>
+          <ul>
+            <li><a href="#">Restauração</a></li>
+            <li><a href="#">Customização</a></li>
+          </ul>
+        </li>
+        <li><a href=".\projetos.html">Projetos</a>    
+        </li>
+        <li><a href="#">História</a></li>
+        <li><a href="#">Localização</a></li>
+      </ul>
+      </nav>
+    </div>
+    <div><img class="imgprinc" src=".\img/ford-290615_1920.jpg">
+    </div>
+    <div class="banner">
+      <aside>        
+      </aside>
+    </div>
+    <div>
+	<a href=".\projetos.html">
+	<img class="imgsecun" src=".\img/car_1_1920.jpg">
+	</a>
+    </div>
+    <div class="rodape">
+      <footer>
+        <p> Atendimento de Seg. à Sex. das 08h às 17h e Sáb. das 8h às 14h </p><br>
+        <p>(19)3123-4567</p><br>
+				<p>(19)98123-4567 WhatsApp</p><br>
+				<p>atendimento@johnnycgarage.com</p><br>
+				<p>Rua John Boyd Dunlop, 12345, Villa Henry Ford</p><br>
+      </footer>
+    </div>
+  </body>
+</html>

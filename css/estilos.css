@@ -1,0 +1,12 @@
+body{
+	background-color: #550000;
+}
+
+p, h1, a{
+	color: white;
+	text-decoration: none;
+}
+
+footer{
+	background-color: gray;	
+}

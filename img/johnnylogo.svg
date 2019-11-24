@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="johnnylogo.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.7971629"
+     inkscape:cx="512.44033"
+     inkscape:cy="474.49845"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showborder="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:80px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="296.02213"
+       y="706.26111"
+       id="text4251"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4253"
+         x="296.02213"
+         y="706.26111" /></text>
+    <g
+       id="g3356"
+       style="fill:#008000">
+      <path
+         sodipodi:nodetypes="ccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path3425-3"
+         d="m 187.90479,654.29066 c -6.29483,-24.3727 3.72949,-55.30199 31.3293,-60.16059 19.93153,-12.14278 40.00109,-27.17993 63.88509,-32.18215 50.48902,-13.70373 67.97455,11.91739 151.41259,-43.35613 55.64635,-30.39469 124.48345,-30.57377 185.45018,-15.55307 69.46868,16.47362 156.67934,42.0761 199.09978,67.22504 21.29394,16.50189 21.62575,47.66909 17.902,72.08533 -6.8723,20.08534 0.50594,-21.14723 -2.91294,-27.89688 -10.07493,-55.14162 -66.40324,-65.03602 -110.2051,-76.8076 -132.05941,-42.18005 -211.69165,-63.70413 -338.40663,18.40399 -49.30103,17.13186 -98.26759,-4.03948 -138.62097,26.21839 -15.06333,18.46044 -54.82591,14.06142 -55.00259,44.14517 -2.22616,8.46109 8.03798,24.89076 -3.93071,27.8785 z"
+         style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         style="fill:#008000"
+         transform="matrix(1.3932863,0,0,0.91690829,-270.19412,56.575852)"
+         id="g3348">
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:98.1993866px;line-height:125%;font-family:Verdana;-inkscape-font-specification:'Verdana Bold Italic';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="378.15588"
+           y="634.95422"
+           id="text4247"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4249"
+             x="378.15588"
+             y="634.95422">Johnny</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.89832306px;line-height:125%;font-family:'Airstrike Half-Tone';-inkscape-font-specification:'Airstrike Half-Tone';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="372.56998"
+           y="660.79486"
+           id="text4255"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4257"
+             x="372.56998"
+             y="660.79486">CUSTOM GARAGE</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
