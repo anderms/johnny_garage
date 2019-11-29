@@ -9,6 +9,52 @@ header{
 	width: 360px;
 }
 
+ul,
+.menu-fechar{
+   display: none;
+}
+
+.menu-ativo ul{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   transition: bottom 0.4s ease-out;
+}
+
+.menu-abrir,
+.menu-fechar{
+   font-size: 2rem;
+   animation: aparece 1s;
+}
+
+nav{   
+   margin-bottom: .75rem;
+   transition: bottom 0.4s ease-out;
+}
+
+ul{
+   animation: aparece 1s;
+}
+
+ul li{
+   font-size: 215%;
+   padding: .45em;
+
+      
+}
+
+.menu-ativo .menu-fechar{
+   display: inline-block;
+}
+
+.menu-controle-responsivo{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-bottom: 1em;
+   padding-top: 1.5em;
+}
+
 .slider img{
 	width: 100%;
 }
@@ -16,12 +62,42 @@ header{
 	text-align: center;
 }
 
+.main{
+   margin: 0 auto;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   display: flex;
+   flex-direction: column;   
+   width: 90%;
+}
+
+.apresentacao p{
+   text-align: justify;
+}
+
+.mapa{
+   padding-top: 1.5em;
+   padding-bottom: 2em;
+}
+
+.mapa p{
+   text-align: center;
+   padding-bottom: 1em;
+}
+
 footer{
 	width: 100%;
-	position: fixed;
+	position: static;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 	bottom: 0;
+}
+
+@keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
 }
 
 /* DESKTOP */
@@ -31,6 +107,11 @@ footer{
    		flex-direction: row;
    		justify-content: space-between;
    	}
+
+      .menu-abrir,
+      .menu-fechar{
+         display: none;         
+      }
    	
    	.menu li{
    		display: inline-block;
@@ -39,8 +120,25 @@ footer{
    	.menu a{
    		padding-right: 2rem;
    	}
+
+      .main{
+         width: 95%;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-between;
+      }
+
+      .apresentacao,
+      .mapa{
+         width: 45%;
+      }
    	
    	footer{
    		position: relative;
    	}
+
+      ul{
+         display: inline-block;
+      }
 }

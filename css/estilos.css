@@ -5,6 +5,7 @@ body{
 p, h1, a{
 	color: white;
 	text-decoration: none;
+	font-family: "Arial", sans-serif;
 }
 
 footer{
