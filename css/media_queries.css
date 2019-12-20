@@ -27,6 +27,22 @@ ul,
    animation: aparece 1s;
 }
 
+.servicos ul,
+.projetos ul{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.servicos li{   
+   width: 90%;
+   margin-bottom: .5rem;
+}
+
+.servicos p{
+   font-size: 50%;
+}
+
 nav{   
    margin-bottom: .75rem;
    transition: bottom 0.4s ease-out;
@@ -62,6 +78,15 @@ ul li{
 	text-align: center;
 }
 
+.projetos{
+   margin: 0 auto;
+   padding: 1rem;
+}
+
+.projetos img{
+   width: 95%;
+}
+
 .main{
    margin: 0 auto;
    padding-top: 1em;
@@ -69,6 +94,21 @@ ul li{
    display: flex;
    flex-direction: column;   
    width: 90%;
+}
+
+.main-mapa{
+   margin: 0 auto;
+   width: 90%;
+}
+
+.main-mapa h1{
+   text-align: center;
+}
+
+.sobrenos{
+   font-size: 120%;
+   text-align: justify;
+   padding-bottom: 1rem;
 }
 
 .apresentacao p{
@@ -91,6 +131,11 @@ footer{
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 	bottom: 0;
+}
+
+footer p{
+   font-family: "Arial", sans-serif;
+   line-height: 2em;
 }
 
 @keyframes aparece {
@@ -129,14 +174,57 @@ footer{
          justify-content: space-between;
       }
 
+      .servicos{
+         width: 95%;
+         margin: 0 auto;
+         padding-top: 3rem;
+      }
+
+      .servicos ul,
+      .projetos ul{
+         display: flex;
+         flex-direction: row;
+         align-items: flex-start;
+         justify-content: space-between;
+      }
+
+      .servicos li{
+         width: 100%;
+         margin: .5rem;
+         
+      }
+
       .apresentacao,
       .mapa{
          width: 45%;
       }
-   	
+
+      .sobrenos{
+         margin: 0 auto;
+         padding-top: 9rem;
+         padding-bottom: 20rem;
+         width: 90%;
+      }
+
+      .sobrenos p{
+         font-size: 180%;
+      }
+
+      .main-mapa{
+
+         padding-bottom: 12rem;
+         padding-top: 3rem;
+      }
+     
    	footer{
    		position: relative;
+         display: flex;
+         justify-content: space-between;
    	}
+
+      footer div{
+         width: 100%;
+      }
 
       ul{
          display: inline-block;
